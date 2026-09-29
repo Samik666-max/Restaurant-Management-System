@@ -7,5 +7,4 @@ def display_sales(cursor):
         for value in record:
             print(str(value).ljust(20), end="")
         print()
-    print()
     
